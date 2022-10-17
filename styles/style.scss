@@ -1,0 +1,45 @@
+/* colors from here https://www.dur.ac.uk/brand/local/colourpalette/*/
+$prim_purple: #68246D;
+$prim_yellow: #ffd53a;
+
+
+/* Set font to consolas stuff */
+* {
+  font-family: Consolas, monaco, monospace;
+  //font-size: 24px;
+  //font-style: normal;
+  //font-variant: normal;
+  //font-weight: 700;
+  line-height: 26.4px;
+}
+
+/* actual styling */
+.main-header {
+  background-color: $prim_purple; // here you can put an inline comment
+  color: white;
+  padding-top: 20pt;
+  padding-bottom: 20pt;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 36pt;
+    margin-top: 10pt;
+    margin-left: 30pt;
+    margin-right: 30pt;
+  }
+
+}
+
+.container {
+  margin-top: 20pt;
+}
+
+div {
+  p {
+  margin-bottom: 0;
+  }
+  margin-bottom: 10pt;
+}

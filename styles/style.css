@@ -1,0 +1,36 @@
+/* colors from here https://www.dur.ac.uk/brand/local/colourpalette/*/
+/* Set font to consolas stuff */
+* {
+  font-family: Consolas, monaco, monospace;
+  line-height: 26.4px;
+}
+
+/* actual styling */
+.main-header {
+  background-color: #68246D;
+  color: white;
+  padding-top: 20pt;
+  padding-bottom: 20pt;
+}
+.main-header p {
+  margin-bottom: 0;
+}
+.main-header img {
+  width: 36pt;
+  margin-top: 10pt;
+  margin-left: 30pt;
+  margin-right: 30pt;
+}
+
+.container {
+  margin-top: 20pt;
+}
+
+div {
+  margin-bottom: 10pt;
+}
+div p {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

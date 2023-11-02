@@ -33,4 +33,27 @@ div p {
   margin-bottom: 0;
 }
 
+.row {
+  float: left;
+  margin-left: 10%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+#image {
+  float: right;
+  padding-left: 10%;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*# sourceMappingURL=style.css.map */
